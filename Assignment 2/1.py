@@ -2,3 +2,6 @@
 
 x='''"Learninig Python"'''   #Assign variable x=learning python string
 print(x)    # print output of x
+
+x="\"Learning Python\""
+print(x)
