@@ -22,4 +22,21 @@ while i>=1:           # i>0 or i or i>=1
     i=i-1                 # decrement for reverse order output
 print()
 
+while i>1:
+    pass
+print()
 
+i=1
+x=int(input('enter a number'))
+while i<=10:
+    if x%2==0:
+        continue
+    print(i,"=x",x)
+    i+=1
+
+i=1
+while i<=10:
+    if i%2==0:
+        break
+    print("odd")
+    i+=1
