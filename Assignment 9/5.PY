@@ -2,7 +2,7 @@
 
 i=1
 n=int(input("enter a number "))
-while i<n:
+while i<=n*2:
     if i%2==1:
-        print(n-i,end=' ')
+        print(n*2-i,end=' ')
     i+=1
