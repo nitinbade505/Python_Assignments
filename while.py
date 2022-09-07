@@ -1,3 +1,6 @@
+# while loop iterates a block of code till the specified condition is true
+# if condition false code terminated at that coondition.
+
 i=1                         # assign i=1
 while i<=5:
     print("MySirG")
