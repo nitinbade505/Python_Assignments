@@ -2,8 +2,7 @@
 use bin() method)'''
 
 n=int(input("enter a number : "))
+a=''
 while(n>0):
-    a=(print(0) if n%2==0 else print(1))
+    a=str(print(0) if n%2==0 else print(1))
     n=n//2
-
-
